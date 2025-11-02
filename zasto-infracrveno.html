@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REMONT24 | Zašto infracrveno grijanje?</title>
+
+  <meta name="description" content="Zašto izabrati infracrveno grijanje? Detaljno objašnjenje prednosti, fizičkih principa, ušteda i usporedbe s konvekcijskim grijanjem.">
+  <meta name="keywords" content="infracrveno grijanje prednosti, zračno grijanje, konvekcijsko grijanje, ušteda energije, infracrveno grijanje Bihać, infracrveno grijanje Sarajevo, REMONT24, ekološko grijanje">
+
+  <link rel="canonical" href="https://www.remont24bih.com/zasto-infracrveno.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="REMONT24 - Zašto infracrveno grijanje?">
+  <meta property="og:description" content="Revolucionarna alternativa konvekcijskom grijanju – brže, zdravije, efikasnije.">
+  <meta property="og:image" content="https://www.remont24bih.com/img/infracrveno-grijanje-og.jpg">
+  <meta property="og:url" content="https://www.remont24bih.com/zasto-infracrveno.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="REMONT24 - Zašto infracrveno grijanje?">
+  <meta name="twitter:description" content="Sve prednosti infracrvenog grijanja – od uštede do zdravlja.">
+  <meta name="twitter:image" content="https://www.remont24bih.com/img/infracrveno-grijanje-og.jpg">
+
+  <!-- Ikone & Fontovi -->
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1d5a3f;
+      --secondary: #4caf50;
+      --light-green: #a8e6cf;
+      --accent: #f5f5dc;
+      --text: #333;
+      --white: #ffffff;
+      --background: #fff;
+      --font-family: 'Poppins', sans-serif;
+      --navbar-height: 80px;
+      --navbar-height-shrink: 60px;
+      --font-size-base: clamp(0.8rem, 2vw, 1.2rem);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); color: var(--text); background: var(--background); line-height: 1.6; overflow-x: hidden; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* NAVBAR */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 45px;               
+  width: auto;
+  max-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+.sticky-header.shrink .logo-img {
+  height: 38px;               
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 38px;
+  }
+  .sticky-header.shrink .logo-img {
+    height: 32px;
+  }
+}
+    .sticky-header {
+      position: fixed; top: 0; left: 0; width: 100%; background: rgba(29, 90, 63, 0.85);
+      backdrop-filter: blur(10px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 1000;
+      height: var(--navbar-height); transition: height 0.3s ease, transform 0.3s ease;
+      animation: slideDown 0.5s ease forwards; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 20px), 0 100%);
+    }
+    @keyframes slideDown { from { transform: translateY(-100%); } to { transform: translateY(0); } }
+    .sticky-header.shrink { height: var(--navbar-height-shrink); }
+
+    .sticky-header .container { display: flex; justify-content: space-between; align-items: center; height: 100%; padding: 0 20px; }
+    .logo { font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 600; color: var(--white); }
+    .desktop-nav ul { display: flex; list-style: none; gap: 10px; margin: 0; }
+    .desktop-nav a, .desktop-nav select#languageSwitcher {
+      color: var(--white); text-decoration: none; font-size: var(--font-size-base); padding: 8px 16px;
+      border-radius: 20px; background: rgba(168, 230, 207, 0.15); box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      backdrop-filter: blur(5px); transition: all 0.3s ease; display: inline-block;
+    }
+    .desktop-nav a:hover, .desktop-nav select#languageSwitcher:hover {
+      color: var(--light-green); transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      background: rgba(168, 230, 207, 0.25);
+    }
+    .desktop-nav select#languageSwitcher {
+      border: none; cursor: pointer; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path d="M0 0l5 5 5-5H0z" fill="currentColor"/></svg>');
+      background-repeat: no-repeat; background-position: right 8px center; padding-right: 28px;
+    }
+    .desktop-nav select#languageSwitcher:focus { outline: 2px solid var(--secondary); outline-offset: 2px; }
+    .desktop-nav select#languageSwitcher option { background: var(--white); color: var(--text); }
+
+    
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    transition: all 0.3s;
+}
+
+.hamburger span {
+    background: var(--white);
+    height: 3px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.mobile-nav {
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    width: 80%;
+    height: calc(100vh - var(--navbar-height));
+    background: var(--primary);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    z-index: 999;
+}
+
+.mobile-nav.open {
+    transform: translateX(0);
+}
+
+.mobile-nav ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-nav a,
+.mobile-nav select#languageSwitcher {
+    color: var(--white);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 1.2rem;
+    background: rgba(168, 230, 207, 0.15);
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s;
+    font-family: var(--font-family);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mobile-nav a:hover,
+.mobile-nav select#languageSwitcher:hover {
+    background: rgba(168, 230, 207, 0.25);
+    transform: translateY(-2px);
+}
+
+.mobile-nav select#languageSwitcher {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path d="M0 0l5 5 5-5H0z" fill="currentColor"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    padding-right: 40px;
+    height: 60px; 
+}
+
+.mobile-nav select#languageSwitcher:focus {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+}
+
+.mobile-nav select#languageSwitcher option {
+    background: var(--white);
+    color: var(--text);
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 998;
+}
+
+.overlay.open {
+    display: block;
+}
+
+    /* SEKCIJE */
+    section { padding: 120px 10% 80px 10%; animation: fadeInUp 1s ease both; }
+    h1, h2 { color: var(--primary); text-align: center; }
+    h1 { font-size: 2.2rem; margin-bottom: 30px; position: relative; }
+    h1::after { content: ''; position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: var(--secondary); border-radius: 2px; }
+    h2 { font-size: 1.6rem; margin: 40px 0 20px; position: relative; padding-left: 20px; }
+    h2::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 6px; height: 100%; background: var(--secondary); border-radius: 3px; }
+    h3 { color: var(--secondary); margin-top: 35px; font-size: 1.4rem; }
+    p { margin-bottom: 18px; line-height: 1.8; font-size: 1.05rem; }
+    strong { color: var(--secondary); font-weight: 600; }
+
+    .infracrveno-section {
+      padding: 80px 10%; background: linear-gradient(135deg, #f8fff9 0%, #e8f5e9 100%);
+      border-radius: 15px; margin: 60px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+    .why-infra-list { list-style: none; padding-left: 0; margin: 25px 0; }
+    .why-infra-list li { position: relative; padding-left: 28px; margin-bottom: 12px; font-size: 1.05rem; }
+.why-infra-list li::before {
+  content: "✔";                    
+  position: absolute;
+  left: 0;
+  color: var(--secondary);
+  font-weight: bold;
+  font-size: 1.3rem;
+  top: 2px;
+}
+    .gallery { display: flex; width: 100%; height: 80vh; margin: 60px 0; }
+    .panel {
+      background-size: cover; background-position: center; background-repeat: no-repeat;
+      height: 100%; border-radius: 10px; cursor: pointer; flex: 0.5; margin: 10px; position: relative;
+      transition: flex 0.7s ease-in;
+    }
+    .panel.active { flex: 5; }
+    .panel h3 { font-size: 24px; position: absolute; bottom: 20px; left: 20px; margin: 0; opacity: 0; color: white; transition: opacity 0.3s ease-in 0.4s; }
+    .panel.active h3 { opacity: 1; }
+
+    details { margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+    summary { cursor: pointer; font-weight: 600; color: var(--primary); padding: 10px 0; }
+    details[open] summary { color: var(--secondary); }
+
+  
+footer {
+    background-color: #1d5a3f;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-center iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.footer-right .social-icon {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 15px;
+    transition: 0.3s ease;
+}
+
+.footer-right .social-icon:hover {
+    color: #4CAF50;
+}
+
+.footer-center {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-center iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+    .animate-on-scroll { opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s; }
+    .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVNOST */
+    @media (max-width: 1200px) { .container { max-width: 992px; } :root { --navbar-height: 70px; --navbar-height-shrink: 50px; } }
+    @media (max-width: 992px) { .container { max-width: 768px; } .sticky-header { clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 15px), 0 100%); } }
+    @media (max-width: 768px) {
+      .container { max-width: 480px; } .desktop-nav { display: none; } .hamburger { display: flex; }
+      .mobile-nav { top: var(--navbar-height-shrink); } .infracrveno-section { padding: 60px 5%; margin: 40px 0; }
+      .infracrveno-section h1 { font-size: 1.8rem; } .infracrveno-section h2 { font-size: 1.4rem; }
+      .gallery { flex-direction: column; height: auto; min-height: 100vh; padding: 20px 0; }
+      .panel { width: 100%; height: 150px; flex: none; margin: 10px auto; } .panel.active { height: 50vh; }
+      .footer-center iframe { height: 280px; }
+    }
+    @media (max-width: 480px) {
+      .container { max-width: 320px; } .sticky-header { clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 10px), 0 100%); }
+      .infracrveno-section { padding: 50px 5%; } .infracrveno-section h1 { font-size: 1.6rem; } .footer-center iframe { height: 230px; }
+    }
+    /* SEKCIJA: Infracrvene grijne folije */
+.heating-film-section {
+  padding: 120px 5% 100px;
+  padding-top: 0px;
+  background: #f8f8f8;
+}
+
+.film-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #999;
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.film-title {
+  text-align: center;
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.film-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.film-images {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.film-img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease;
+}
+.film-img:hover {
+  transform: translateY(-5px);
+}
+.film-img.main { height: 280px; object-fit: cover; }
+.film-img.roll { height: 220px; object-fit: cover; }
+
+.film-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+.film-text p {
+  margin-bottom: 20px;
+}
+
+/* TABELA */
+.tech-table-wrapper {
+  grid-column: 1 / -1;
+  margin-top: 60px;
+}
+.tech-title {
+  background: linear-gradient(135deg, #d32f2f, #b71c1c);
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 8px 8px 0 0;
+  text-align: left;
+}
+.tech-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+}
+.tech-table tr {
+  border-bottom: 1px solid #eee;
+}
+.tech-table tr:last-child {
+  border-bottom: none;
+}
+.tech-table td {
+  padding: 14px 20px;
+  font-size: 0.98rem;
+}
+.tech-table td:first-child {
+  font-weight: 600;
+  color: #d32f2f;
+  width: 38%;
+}
+.tech-table td:last-child {
+  color: #333;
+}
+
+@media (max-width: 992px) {
+  .film-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .film-images {
+    order: -1;
+      flex-direction: column;
+    gap: 15px;
+  }
+  .film-img.main, .film-img.roll {
+    height: 180px;
+    flex: 1;
+  }
+  .tech-table td {
+    padding: 12px 15px;
+    font-size: 0.92rem;
+  }
+  .tech-title { font-size: 1.2rem; }
+}
+
+@media (max-width: 576px) {
+  .film-title { font-size: 1.9rem; }
+  .film-subtitle { font-size: 1rem; }
+  .film-text { font-size: 0.98rem; }
+  .tech-table td {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .tech-table td:first-child {
+    background: #fff5f5;
+    font-weight: bold;
+    border-bottom: 1px solid #ffebee;
+  }
+  .tech-table tr {
+    border: none;
+    margin-bottom: 8px;
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+}
+  </style>
+</head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "REMONT24",
+  "image": "https://www.remont24bih.com/img/logo.png",
+  "url": "https://www.remont24bih.com",
+  "telephone": "+387 60 332 7720",
+  "email": "info@remont24bih.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ul. 502. Viteške br. 10",
+    "addressLocality": "Bihać",
+    "postalCode": "77000",
+    "addressCountry": "BA"
+  },
+  "areaServed": [
+    "Bihać", "Sarajevo", "Mostar", "Tuzla", "Zenica", "Banja Luka",
+    "Cazin", "Sanski Most", "Livno", "Velika Kladuša",
+    "Graz", "Beč", "Linz", "Villach", "Ljubljana", "Maribor", "Celje",
+    "München", "Stuttgart", "Frankfurt", "Zürich", "Basel", "Luzern"
+  ],
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61556882153762",
+    "https://www.instagram.com/plafoni24bih",
+  ]
+}
+</script>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="sticky-header">
+    <div class="container">
+<a href="index.html" class="logo">
+  <img src="logo-removebg-preview (1).png" alt="REMONT24 Logo" class="logo-img">
+</a>      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html" data-translate="nav-home">Početna</a></li>
+          <li><a href="index.html#usluge" data-translate="nav-services">Usluge</a></li>
+          <li><a href="index.html#prije-poslije" data-translate="nav-before-after">Prije/Poslije</a></li>
+          <li><a href="index.html#galerija" data-translate="nav-gallery">Galerija</a></li>
+          <li><a href="index.html#kontakt" data-translate="nav-contact">Kontakt</a></li>
+          <li><a href="index.html#kontakt" class="cta-button" data-translate="nav-book">Zakažite termin</a></li>
+          <li><select id="languageSwitcher"><option value="bs">Bosanski</option><option value="en">English</option><option value="de">Deutsch</option></select></li>
+        </ul>
+      </nav>
+      <div class="hamburger" aria-label="Otvori meni" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav">
+    <ul>
+      <li><a href="index.html" data-translate="nav-home">Početna</a></li>
+      <li><a href="index.html#usluge" data-translate="nav-services">Usluge</a></li>
+      <li><a href="index.html#prije-poslije" data-translate="nav-before-after">Prije/Poslije</a></li>
+      <li><a href="index.html#galerija" data-translate="nav-gallery">Galerija</a></li>
+      <li><a href="index.html#kontakt" data-translate="nav-contact">Kontakt</a></li>
+      <li><a href="index.html#kontakt" class="cta-button" data-translate="nav-book">Zakažite termin</a></li>
+      <li><select id="languageSwitcher"><option value="bs">Bosanski</option><option value="en">English</option><option value="de">Deutsch</option></select></li>
+    </ul>
+  </nav>
+  <div class="overlay"></div>
+
+  <!-- GLAVNA SEKCIJA -->
+  <section id="zasto-infracrveno" class="section animate-on-scroll">
+    <div class="container">
+      <h1 data-translate="why-infra-title">Zašto infracrveno?</h1>
+
+      <p data-translate="why-infra-p1">
+        Kao revolucionarna alternativa, zračno grijanje otvara potpuno nove puteve u industriji grijanja. Ovo zauzima poziciju kontrapunkta centralnom konvekcijskom grijanju i daleko je superiornije od njega u svim aspektima.
+      </p>
+
+      <p data-translate="why-infra-p2">
+        U nastavku objašnjavamo razloge za transparentnost i omogućavamo vam da sami donesete odluku, onu koja je začinjena razlozima i argumentima, a ne samo na osnovu mišljenja.
+      </p>
+
+      <p data-translate="why-infra-p3">
+        Uz konvekcijsko grijanje i konvencionalne sisteme centralnog grijanja, besmisleni sustavi grijanja koji zahtijevaju velike resurse, energiju i održavanje su i dalje uobičajeni.
+      </p>
+
+      <p data-translate="why-infra-p4">
+        Ideje i iskustva tehnologije konvekcijskog grijanja ne mogu se prenijeti na grijanje zračenjem. Budućnost tehnologije grijanja je grijanje zračenjem u svakom pogledu. Ovo osigurava da se građevinska konstrukcija održava na konstantnoj temperaturi, a temperatura zraka u prostoriji teče paralelno, sekundarno.
+      </p>
+
+      <h2 data-translate="why-infra-h2-1">Konvekcijska toplota u poređenju</h2>
+      <p data-translate="why-infra-p5">
+        Za razliku od konvektivnog grijanja, infracrveni grijači direktno zagrijavaju zidove, predmete i tijela u prostoriji, a ne, kao i obično, uglavnom zrak. Čitav materijal apsorbira infracrveno zračenje umjesto da zrači neugodnu hladnoću kao i obično, a zatim ravnomjerno oslobađa toplinu zračenja po cijeloj prostoriji. Ovo stvara izuzetno ugodnu toplinu, koja podsjeća na prostoriju prirodno zagrijanu sunčevim zracima. Pod i okovi od nerđajućeg čelika više nisu hladni, a vlaga i buđ nemaju šanse.
+      </p>
+
+      <p data-translate="why-infra-p6">
+        Primarni cilj tehnologije grijanja je garantiranje udobnosti, koja je uglavnom određena interakcijom temperature površine zida i temperature zraka u prostoriji.
+      </p>
+
+      <p data-translate="why-infra-p7">
+        Ugodna temperatura je otprilike u sredini obje temperature. Tokom konvekcije, zid ima temperaturu od 16°C, a vazduh 20°C. Sa zračnim grijanjem moguća je mnogo ugodnija temperatura zida od 22°C i omogućava zraku da dostigne nižu temperaturu od samo 18°C, što ima odlučujuću prednost da je mnogo ugodnije za disanje. Na primjer, gdje je bolje disati, na vrhu planine s hladnim zrakom ili u suhoj, toploj pustinji?
+      </p>
+
+      <h2 data-translate="why-infra-h2-2">Ravnomjerno širenje topline</h2>
+      <p data-translate="why-infra-p8">
+        Ravnomjerno se toplina raspoređuje po zidovima i po prostoriji, zrak je ugodno hladan i nije podložan cirkulaciji zraka, čime se ne podižu ni prašina, ni bakterije ni virusi.
+      </p>
+
+      <p data-translate="why-infra-p9">
+        Neravnomjerna raspodjela topline: Toplina se diže s toplim, suhim zrakom, podižući prašinu, viruse i bakterije, ali zidovi ostaju hladni i može doći do kondenzacije.
+      </p>
+
+      <p data-translate="why-infra-p10">
+        Budući da infracrveni zraci direktno zagrijavaju tijelo, u prostoriji se osjećate ugodno i toplo, iako je zrak prilično hladan. Ovo je također jedan od razloga zašto su infracrveni grijači energetski efikasni. Razlika u kvaliteti vazduha je jasno primjetna; sada je ugodno hladan i nije podložan nikakvoj cirkulaciji zraka, tako da ne podiže ni prašinu, ni bakterije ni viruse.
+      </p>
+
+      <h2 data-translate="why-infra-h2-3">Poboljšana izolacijska svojstva kroz zračenje topline</h2>
+      <p data-translate="why-infra-p11">
+        Kao što svi znamo, vlažna izolacija je beskorisna kao i mokri vuneni kaput zimi. Oni ne mogu zaštititi sisteme od gubitaka energije ili korozije. Korelacija između toplote zračenja i povezanog isušivanja građevinske konstrukcije efektivno doprinosi poboljšanim vrijednostima izolacije, a time i daljoj uštedi energije.
+      </p>
+
+      <h2 data-translate="why-infra-h2-4">Kvalitete toplotnih zraka i fizički principi</h2>
+      <p data-translate="why-infra-p12">
+        Fizički principi dva sistema grijanja su potpuno različiti. Kod grijanja zračenjem, prijenos topline se vrši bez transportnog medija samo toplinskim zračenjem (kvantna mehanika), zrak u prostoriji stoga ostaje hladan i prijatan, dok konvekcija zahtijeva toplinski tok toplog zraka (termodinamika) za prijenos topline. Fenomen zračenja poznat je od sunca i pokazuje da se velike udaljenosti mogu savladati bez transportnog medija.
+      </p>
+
+      <h2 data-translate="why-infra-h2-5">Potrošnja i rashodi tokom tekućih operacija</h2>
+      <p data-translate="why-infra-p13">
+        Puno tehnologije u sistemu centralnog grijanja znači i mnogo brige i zamjene mnogih malih dijelova koji se troše. Osim toga, sistem grijanja na sagorijevanje također zahtijeva:
+      </p>
+
+      <ul class="why-infra-list">
+        <li data-translate="why-infra-li1">Održavanje sistema grijanja</li>
+        <li data-translate="why-infra-li2">Dimnjačarske usluge</li>
+        <li data-translate="why-infra-li3">Čišćenje magacina</li>
+        <li data-translate="why-infra-li4">Popravka i zamjena raznih dijelova koji se troše</li>
+        <li data-translate="why-infra-li5">Isporuke goriva, npr. pelet, ulje, drvo</li>
+      </ul>
+
+      <p data-translate="why-infra-p14">
+        Sve u svemu, energetska efikasnost toplotne pumpe je niža nego što se očekivalo.
+      </p>
+
+      <p data-translate="why-infra-p15">
+        Ne treba zaboraviti da se ne mogu zanemariti gubici toplote iz akumulacionog rezervoara i distributivne mreže od sistema centralnog grijanja do najudaljenije prostorije. Kod podnog grijanja, sistem grijanja je vrlo spor i stoga ponekad proizvodi više topline nego što je potrebno.
+      </p>
+    </div>
+  </section>
+<section class="heating-film-section animate-on-scroll">
+  <div class="container">
+    <h2 class="film-title" data-translate="film-title">Infracrvene grijne folije</h2>
+
+    <div class="film-content">
+
+      <div class="film-images">
+        <img src="lijevi_infra.jpg" alt="Infracrvena grijna folija sa kablom" class="film-img main">
+        <img src="desni_infra.jpg" alt="Rolna infracrvene folije" class="film-img roll">
+      </div>
+
+      <div class="film-text">
+      </div>
+
+      <div class="tech-table-wrapper">
+        <h3 class="tech-title" data-translate="tech-title">Tehnički podaci</h3>
+        <table class="tech-table">
+          <tr><td data-translate="spec-width">Širina</td><td>100 – 690 mm</td></tr>
+          <tr><td data-translate="spec-power">Snaga</td><td>do 2000 W/m²</td></tr>
+          <tr><td data-translate="spec-voltage">Napon</td><td>12 V – 750 V</td></tr>
+          <tr><td data-translate="spec-temp">Granična temperatura</td><td>maks. 80°C – plafonski elementi<br>maks. 95°C – ugradbeni</td></tr>
+          <tr><td data-translate="spec-temp-short">Maks. temperatura (kratko)</td><td>150°C</td></tr>
+          <tr><td data-translate="spec-min-temp">Minimalna radna temperatura</td><td>+5°C</td></tr>
+          <tr><td data-translate="spec-conductor">Vodič</td><td>Grijač i hladni vodič od aluminijuma</td></tr>
+          <tr><td data-translate="spec-current">Maks. struja po elementu</td><td>16 A</td></tr>
+          <tr><td data-translate="spec-max-power">Maks. snaga</td><td>maks. 4000 W</td></tr>
+          <tr><td data-translate="spec-tolerance">Tolerancija snage</td><td>+5 % / -10 %</td></tr>
+          <tr><td data-translate="spec-radius">Najmanji radijus savijanja</td><td>30 mm</td></tr>
+          <tr><td data-translate="spec-base">Osnovna folija</td><td>23 µm do 50 µm</td></tr>
+          <tr><td data-translate="spec-insulation">Izolaciona folija</td><td>50 µm do 1500 µm</td></tr>
+          <tr><td data-translate="spec-thickness">Debljina folije</td><td>150 µm do 400 µm</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- FOOTER -->
+  <footer>
+        <div class="footer-container">
+            <div class="footer-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4166.332020914961!2d15.85340235699296!3d44.83368253679571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476140f8ca8569b9%3A0x51d5fc699702b9a!2sBiha%C4%87%2077000%2C%20Bosna%20i%20Hercegovina!5e1!3m2!1sbs!2sro!4v1760230357351!5m2!1sbs!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/plafoni24bih" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61556882153762" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-left">
+<p>© 2025 Remont24 | Sva prava zadržana
+    <p>Web development by <a href="https://www.eminetik.com" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-color: inherit;">Eminetic</a></p>
+</p>
+        </div>
+    </footer>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const translations = {
+      bs: {
+        "nav-home": "Početna",
+        "nav-services": "Usluge",
+        "nav-before-after": "Prije/Poslije",
+        "nav-gallery": "Galerija",
+        "nav-contact": "Kontakt",
+        "nav-book": "Zakažite termin",
+        "main-title": "Infracrveno: Grijanje budućnosti!",
+        "block1-title": "Infracrveno: Grijanje budućnosti!",
+        "block1-p1": "Za razliku od konvekcijskog grijanja, infracrveno grijanje – poput sunca – ne zagrijava zrak, već direktno predmete u prostoriji, uključujući ljudsko tijelo, namještaj i zidove. Ovi predmeti zatim otpuštaju toplinu u prostoriju i osiguravaju ugodnu temperaturu.",
+        "block2-title": "Jednostavno fleksibilno",
+        "block2-p1": "Infracrvene grijne folije su fleksibilno rješenje grijanja za plafon, pod i zid. Otporne su na habanje, koroziju i ne zahtijevaju održavanje. Gotovo <strong>bez gubitaka distribucije</strong> – proizvedena toplina je <strong>100% dostupna u prostoriji</strong>!",
+        "block2-p2": "infraStar prilagođava folije individualnoj upotrebi, tako da se optimalni format ili željena snaga mogu proizvesti po metru.",
+        "block2-note": "Zahvaljujući relativno velikoj aktivnoj grijnoj površini, dovoljna je niska radna temperatura od oko 45°C.",
+        "block3-title": "Grijanje plafona",
+        "block3-p1": "Infracrveno grijanje djeluje tim efikasnije što je veća površina grijanja. Zato je <strong>grijanje plafona idealno</strong> za zagrijavanje prostorije. Odavde se toplina širi ravnomjerno i posebno ugodno.",
+        "block3-p2": "Zahvaljujući <strong>velikoj površini</strong> koja djeluje kao izvor topline, temperatura površine može biti značajno niža uz istu snagu grijanja u stambenom prostoru.",
+        "block3-p3": "<strong>Troškovi potrošnje se smanjuju</strong>, a ugodnost se istovremeno povećava kroz jasno poboljšanu distribuciju topline.",
+        "block4-note": "<strong>infraStar je proizvođač infracrvenih grijnih folija!</strong>",
+        "title-hidden": "Skriveno: Stare plafonske površine",
+        "p1": "Ostavite svoju staru plafonsku površinu netaknutu, sirovu plafonsku konstrukciju <strong>nežbukano</strong> ili ostavite električne vodove otvorene na plafonu.",
+        "p2": "Spušteni plafon se postavlja ispod i <strong>pokriva sve prethodne instalacije</strong>!",
+        "legend1": "Sirov plafon",
+        "legend2": "Drvena konstrukcija",
+        "legend3": "Izolacija",
+        "legend4": "Grijna folija",
+        "legend5": "Spušteni plafon",
+        "spec-width": "Širina",
+        "spec-power": "Snaga",
+        "spec-voltage": "Napon",
+        "spec-temp": "Granična temperatura",
+        "spec-thickness": "Debljina folije",
+        "spec-cable": "Dužina kabla",
+        "vs-title": "Direktno grijanje <span class='vs-text'>VS.</span> Centralno grijanje",
+        "direct-header": "Direktno grijanje <br><span class='brand'>infraStar</span>",
+        "central-header": "Centralno grijanje <br><span class='brand'>Zračna toplinska pumpa</span>",
+        "direct-benefits": [
+          "Malo tehnike, malo otpada",
+          "Bez održavanja",
+          "Bez dodatnih troškova",
+          "Toplina direktno u prostoriji bez dugog predgrijavanja"
+        ],
+        "central-benefits": [
+          "Tehnika i mehanika podložna habanju i kvarovima",
+          "Visoki dodatni troškovi",
+          "Gubici u distribuciji topline",
+          "Buka vanjske jedinice"
+        ],
+        "extra-text": "Usput: Ko ništa ne sagorijeva, ne treba dimnjak, odvod ispuha niti usluge dimničara",
+        "ceiling-title": "Grijanje plafona <span class='subtitle'>Neprimjetna, brza i ravnomjerna toplina</span>",
+        "nav-infrastar": "infraStar®",
+        "nav-why": "Zašto Infrarot?",
+        "nav-solutions": "Rješenja grijanja",
+        "nav-install": "Ugradnja",
+        "nav-consumption": "Potrošnja",
+        "nav-references": "Reference",
+        "nav-performance": "Performanse",
+        "film-subtitle": "Jednostavno fleksibilno grijanje",
+        "film-title": "Infracrvene grijne folije",
+        "film-p1": "infraStar grijne folije su dostupne u različitim širinama i nivoima snage, kao i ljepljive ili jednostrane, obostrano ljepljive varijante. U stambenim prostorima standardna dužina je do 660 cm, a po potrebi se mogu proizvesti i duže trake prema području primjene i vrsti upotrebe. Format, snaga i priključak infracrvenih folija infraStar optimalno se prilagođavaju željama kupaca.",
+        "film-p2": "Grijne folije se od 2023. godine proizvode direktno u Njemačkoj od strane infraStar i testirane su na 4000 V.",
+        "film-p3": "Tvrtka osnivač iz Norveške radi na razvoju fleksibilnih grijnih elemenata i njihove tehnologije još od 1939. godine. Od 1996. se proizvode u Njemačkoj. Zahvaljujući kontinuiranom razvoju materijala i proizvodnih metoda, infracrvene grijne folije i IR-plafonski elementi danas se proizvode i distribuiraju na visokom nivou kvalitete širom svijeta.",
+        "tech-title": "Tehnički podaci",
+        "why-infra-title": "Zašto infracrveno?",
+        "why-infra-p1": "Kao revolucionarna alternativa, zračno grijanje otvara potpuno nove puteve u industriji grijanja. Ovo zauzima poziciju kontrapunkta centralnom konvekcijskom grijanju i daleko je superiornije od njega u svim aspektima.",
+        "why-infra-p2": "U nastavku objašnjavamo razloge za transparentnost i omogućavamo vam da sami donesete odluku, onu koja je začinjena razlozima i argumentima, a ne samo na osnovu mišljenja.",
+        "why-infra-p3": "Uz konvekcijsko grijanje i konvencionalne sisteme centralnog grijanja, besmisleni sustavi grijanja koji zahtijevaju velike resurse, energiju i održavanje su i dalje uobičajeni.",
+        "why-infra-p4": "Ideje i iskustva tehnologije konvekcijskog grijanja ne mogu se prenijeti na grijanje zračenjem. Budućnost tehnologije grijanja je grijanje zračenjem u svakom pogledu. Ovo osigurava da se građevinska konstrukcija održava na konstantnoj temperaturi, a temperatura zraka u prostoriji teče paralelno, sekundarno.",
+        "why-infra-h2-1": "Konvekcijska toplota u poređenju",
+        "why-infra-p5": "Za razliku od konvektivnog grijanja, infracrveni grijači direktno zagrijavaju zidove, predmete i tijela u prostoriji, a ne, kao i obično, uglavnom zrak. Čitav materijal apsorbira infracrveno zračenje umjesto da zrači neugodnu hladnoću kao i obično, a zatim ravnomjerno oslobađa toplinu zračenja po cijeloj prostoriji. Ovo stvara izuzetno ugodnu toplinu, koja podsjeća na prostoriju prirodno zagrijanu sunčevim zracima. Pod i okovi od nerđajućeg čelika više nisu hladni, a vlaga i buđ nemaju šanse.",
+        "why-infra-p6": "Primarni cilj tehnologije grijanja je garantiranje udobnosti, koja je uglavnom određena interakcijom temperature površine zida i temperature zraka u prostoriji.",
+        "why-infra-p7": "Ugodna temperatura je otprilike u sredini obje temperature. Tokom konvekcije, zid ima temperaturu od 16°C, a vazduh 20°C. Sa zračnim grijanjem moguća je mnogo ugodnija temperatura zida od 22°C i omogućava zraku da dostigne nižu temperaturu od samo 18°C, što ima odlučujuću prednost da je mnogo ugodnije za disanje. Na primjer, gdje je bolje disati, na vrhu planine s hladnim zrakom ili u suhoj, toploj pustinji?",
+        "why-infra-h2-2": "Ravnomjerno širenje topline",
+        "why-infra-p8": "Ravnomjerno se toplina raspoređuje po zidovima i po prostoriji, zrak je ugodno hladan i nije podložan cirkulaciji zraka, čime se ne podižu ni prašina, ni bakterije ni virusi.",
+        "why-infra-p9": "Neravnomjerna raspodjela topline: Toplina se diže s toplim, suhim zrakom, podižući prašinu, viruse i bakterije, ali zidovi ostaju hladni i može doći do kondenzacije.",
+        "why-infra-p10": "Budući da infracrveni zraci direktno zagrijavaju tijelo, u prostoriji se osjećate ugodno i toplo, iako je zrak prilično hladan. Ovo je također jedan od razloga zašto su infracrveni grijači energetski efikasni. Razlika u kvaliteti vazduha je jasno primjetna; sada je ugodno hladan i nije podložan nikakvoj cirkulaciji zraka, tako da ne podiže ni prašinu, ni bakterije ni viruse.",
+        "why-infra-h2-3": "Poboljšana izolacijska svojstva kroz zračenje topline",
+        "why-infra-p11": "Kao što svi znamo, vlažna izolacija je beskorisna kao i mokri vuneni kaput zimi. Oni ne mogu zaštititi sisteme od gubitaka energije ili korozije. Korelacija između toplote zračenja i povezanog isušivanja građevinske konstrukcije efektivno doprinosi poboljšanim vrijednostima izolacije, a time i daljoj uštedi energije.",
+        "why-infra-h2-4": "Kvalitete toplotnih zraka i fizički principi",
+        "why-infra-p12": "Fizički principi dva sistema grijanja su potpuno različiti. Kod grijanja zračenjem, prijenos topline se vrši bez transportnog medija samo toplinskim zračenjem (kvantna mehanika), zrak u prostoriji stoga ostaje hladan i prijatan, dok konvekcija zahtijeva toplinski tok toplog zraka (termodinamika) za prijenos topline. Fenomen zračenja poznat je od sunca i pokazuje da se velike udaljenosti mogu savladati bez transportnog medija.",
+        "why-infra-h2-5": "Potrošnja i rashodi tokom tekućih operacija",
+        "why-infra-p13": "Puno tehnologije u sistemu centralnog grijanja znači i mnogo brige i zamjene mnogih malih dijelova koji se troše. Osim toga, sistem grijanja na sagorijevanje također zahtijeva:",
+        "why-infra-li1": "Održavanje sistema grijanja",
+        "why-infra-li2": "Dimnjačarske usluge",
+        "why-infra-li3": "Čišćenje magacina",
+        "why-infra-li4": "Popravka i zamjena raznih dijelova koji se troše",
+        "why-infra-li5": "Isporuke goriva, npr. pelet, ulje, drvo",
+        "why-infra-p14": "Sve u svemu, energetska efikasnost toplotne pumpe je niža nego što se očekivalo.",
+        "why-infra-p15": "Ne treba zaboraviti da se ne mogu zanemariti gubici toplote iz akumulacionog rezervoara i distributivne mreže od sistema centralnog grijanja do najudaljenije prostorije. Kod podnog grijanja, sistem grijanja je vrlo spor i stoga ponekad proizvodi više topline nego što je potrebno.",
+
+        "footer-copyright": "© 2025 Remont24 | Sva prava zadržana"
+      },
+
+      en: {
+        "nav-home": "Home",
+        "nav-services": "Services",
+        "nav-before-after": "Before/After",
+        "nav-gallery": "Gallery",
+        "nav-contact": "Contact",
+        "nav-book": "Book Appointment",
+
+        "main-title": "Infrared: The Heating of the Future!",
+        "block1-title": "Infrared: The Heating of the Future!",
+        "block1-p1": "Unlike convection heating, infrared heating – like the sun – does not heat the air, but directly the objects in the room, including the human body, furniture, and walls. These then release the heat into the room and ensure a pleasant temperature.",
+        "block2-title": "Simply Flexible",
+        "block2-p1": "Infrared heating films are a flexible heating solution for ceiling, floor, and wall. They are wear-resistant, corrosion-free, and require no maintenance. Almost <strong>no distribution losses</strong> – the generated heat is <strong>100% available in the room</strong>!",
+        "block2-p2": "infraStar adapts the films to individual use, so the optimal format or desired power can be produced per meter.",
+        "block2-note": "Thanks to the relatively large active heating surface, a low operating temperature of around 45°C is sufficient.",
+        "block3-title": "Ceiling Heating",
+        "block3-p1": "Infrared heating works more efficiently the larger the heating surface. That’s why <strong>ceiling heating is ideal</strong> for heating the room. From here, the heat spreads evenly and particularly pleasantly.",
+        "block3-p2": "Thanks to the <strong>large surface</strong> acting as a heat source, the surface temperature can be significantly lower with the same heating power in the living space.",
+        "block3-p3": "<strong>Consumption costs are reduced</strong>, and comfort is increased at the same time through clearly improved heat distribution.",
+        "block4-note": "<strong>infraStar is the manufacturer of infrared heating films!</strong>",
+
+        "title-hidden": "Hidden: Old Ceiling Surfaces",
+        "p1": "Leave your old ceiling surface untouched, the raw ceiling structure <strong>unplastered</strong> or leave electrical lines open on the ceiling.",
+        "p2": "The suspended ceiling is installed underneath and <strong>covers all previous installations</strong>!",
+        "legend1": "Raw ceiling",
+        "legend2": "Wooden frame",
+        "legend3": "Insulation",
+        "legend4": "Heating film",
+        "legend5": "Suspended ceiling",
+        "spec-width": "Width",
+        "spec-power": "Power",
+        "spec-voltage": "Voltage",
+        "spec-temp": "Limit temperature",
+        "spec-thickness": "Film thickness",
+        "spec-cable": "Cable length",
+
+        "vs-title": "Direct Heating <span class='vs-text'>VS.</span> Central Heating",
+        "direct-header": "Direct Heating <br><span class='brand'>infraStar</span>",
+        "central-header": "Central Heating <br><span class='brand'>Air-Source Heat Pump</span>",
+        "direct-benefits": [
+          "Minimal technology, minimal waste",
+          "Maintenance-free",
+          "No additional costs",
+          "Heat generated directly in the room without long preheating"
+        ],
+        "central-benefits": [
+          "Wear-prone and maintenance-intensive technology & mechanics",
+          "High ancillary costs",
+          "Heat distribution losses",
+          "Noise from outdoor unit"
+        ],
+        "extra-text": "By the way: Anyone who doesn't burn anything doesn't need a chimney, exhaust system or chimney sweep services",
+
+        "ceiling-title": "Ceiling Surface Heating <span class='subtitle'>Invisible, fast & even warmth</span>",
+        "nav-infrastar": "infraStar®",
+        "nav-why": "Why Infrared?",
+        "nav-solutions": "Heating Solutions",
+        "nav-install": "Installation",
+        "nav-consumption": "Consumption",
+        "nav-references": "References",
+        "nav-performance": "Performance",
+
+        "film-subtitle": "Simply flexible heating",
+        "film-title": "Infrared Heating Films",
+        "film-p1": "infraStar heating films are available in various widths and power levels, as well as adhesive or single-sided, double-sided adhesive versions. In living spaces, the standard length is up to 660 cm; longer strips can also be produced depending on the area of application and type of use. The format, power, and connection of infraStar heating films are optimally adapted to customer requirements.",
+        "film-p2": "The heating films have been produced directly in Germany by infraStar since 2023 and are tested at 4000 V.",
+        "film-p3": "The founding company from Norway has been working on the development of flexible heating elements and their technology since 1939. Since 1996, they have been manufactured in Germany. Thanks to continuous development of materials and production methods, infrared heating films and IR ceiling elements are now produced and distributed worldwide to a high quality standard.",
+        "tech-title": "Technical Data",
+
+        "why-infra-title": "Why Infrared?",
+        "why-infra-p1": "As a revolutionary alternative, radiant heating opens entirely new paths in the heating industry. It positions itself as a counterpoint to central convection heating and is far superior in every aspect.",
+        "why-infra-p2": "Below, we explain the reasons for transparency and allow you to make your own decision — one seasoned with reasons and arguments, not just opinions.",
+        "why-infra-p3": "With convection heating and conventional central heating systems, senseless heating systems that require large resources, energy, and maintenance are still common.",
+        "why-infra-p4": "The ideas and experiences of convection heating technology cannot be transferred to radiant heating. The future of heating technology is radiant heating in every respect. This ensures that the building structure is maintained at a constant temperature, while the room air temperature runs parallel, secondarily.",
+        "why-infra-h2-1": "Convection Heat in Comparison",
+        "why-infra-p5": "Unlike convective heating, infrared heaters directly heat walls, objects, and bodies in the room, not mainly the air. The entire material absorbs infrared radiation instead of radiating unpleasant coldness, and then evenly releases radiant heat throughout the room. This creates an extremely pleasant warmth, reminiscent of a room naturally heated by sunlight. The floor and stainless steel fittings are no longer cold, and moisture and mold have no chance.",
+        "why-infra-p6": "The primary goal of heating technology is to guarantee comfort, which is mainly determined by the interaction of wall surface temperature and room air temperature.",
+        "why-infra-p7": "Comfortable temperature is roughly in the middle of both. During convection, the wall is 16°C, air 20°C. With radiant heating, a much more comfortable wall temperature of 22°C is possible and allows the air to reach a lower temperature of only 18°C, which has the decisive advantage of being much more comfortable to breathe. For example, where is it better to breathe — at the top of a mountain with cold air or in a dry, hot desert?",
+        "why-infra-h2-2": "Even Heat Distribution",
+        "why-infra-p8": "Heat is evenly distributed across walls and the room, the air is pleasantly cool and not subject to air circulation, so neither dust, bacteria, nor viruses are raised.",
+        "why-infra-p9": "Uneven heat distribution: Heat rises with warm, dry air, raising dust, viruses, and bacteria, but walls remain cold and condensation can occur.",
+        "why-infra-p10": "Since infrared rays directly heat the body, you feel comfortable and warm in the room even though the air is quite cool. This is also one of the reasons why infrared heaters are energy-efficient. The difference in air quality is clearly noticeable; now it is pleasantly cool and not subject to any air circulation, so it does not raise dust, bacteria, or viruses.",
+        "why-infra-h2-3": "Improved Insulation Properties Through Radiant Heat",
+        "why-infra-p11": "As we all know, damp insulation is useless like a wet wool coat in winter. They cannot protect systems from energy loss or corrosion. The correlation between radiant heat and the associated drying of the building structure effectively contributes to improved insulation values and thus further energy savings.",
+        "why-infra-h2-4": "Qualities of Heat Rays and Physical Principles",
+        "why-infra-p12": "The physical principles of the two heating systems are completely different. In radiant heating, heat transfer occurs without a transport medium only through thermal radiation (quantum mechanics), so the room air remains cool and pleasant, while convection requires a heat flow of warm air (thermodynamics) for heat transfer. The phenomenon of radiation is known from the sun and shows that large distances can be overcome without a transport medium.",
+        "why-infra-h2-5": "Consumption and Costs During Ongoing Operation",
+        "why-infra-p13": "A lot of technology in a central heating system also means a lot of care and replacement of many small parts that wear out. In addition, a combustion heating system also requires:",
+        "why-infra-li1": "Heating system maintenance",
+        "why-infra-li2": "Chimney sweep services",
+        "why-infra-li3": "Storage cleaning",
+        "why-infra-li4": "Repair and replacement of various worn parts",
+        "why-infra-li5": "Fuel deliveries, e.g. pellets, oil, wood",
+        "why-infra-p14": "Overall, the energy efficiency of heat pumps is lower than expected.",
+        "why-infra-p15": "It should not be forgotten that heat losses from the storage tank and distribution network from the central heating system to the most remote room cannot be neglected. In underfloor heating, the heating system is very slow and therefore sometimes produces more heat than necessary.",
+
+        "footer-copyright": "© 2025 Remont24 | All rights reserved"
+      },
+
+      de: {
+        "nav-home": "Startseite",
+        "nav-services": "Dienstleistungen",
+        "nav-before-after": "Vorher/Nachher",
+        "nav-gallery": "Galerie",
+        "nav-contact": "Kontakt",
+        "nav-book": "Termin buchen",
+
+        "main-title": "Infrarot: Die Heizung der Zukunft!",
+        "block1-title": "Infrarot: Die Heizung der Zukunft!",
+        "block1-p1": "Im Gegensatz zur Konvektionsheizung erwärmen Strahlungsheizungen – genau wie die Sonne – in erster Linie nicht die Luft, sondern die Objekte im Raum, also den menschlichen Körper, die Möbel und die Wände. Diese geben die Wärme an die Raumluft ab und sorgen für eine angenehme Raumtemperatur.",
+        "block2-title": "Einfach flexibel",
+        "block2-p1": "Infrarot-Heizfolien sind die flexible Wärmelösung für Decke, Boden und Wand. Sie sind abnutzungs-, wartungs- und korrosionsfrei. Es entstehen nahezu <strong>keine Verteilverluste</strong>, wodurch die produzierte Wärme zu annähernd 100 % dem Raum zur Verfügung steht!",
+        "block2-p2": "infraStar passt die Heizfolie an die individuelle Nutzung an, um aus technischer Sicht das optimale Format bzw. die gewünschte Leistung je laufendem Meter herzustellen.",
+        "block2-note": "Durch die verhältnismäßig große aktiv beheizte Fläche genügt eine niedrige Betriebstemperatur von ca. 45 °C.",
+        "block3-title": "Die Spanndeckenheizung",
+        "block3-p1": "Die Infrarotheizung wirkt umso effektiver, je mehr Fläche sie einnimmt. Deshalb eignet sich die <strong>Raumdecke ideal</strong> zur Beheizung des Raums. Von dort aus breitet sich die Wärme dezent und besonders angenehm aus.",
+        "block3-p2": "Durch die <strong>große Fläche</strong>, die als Heizquelle fungiert, kann die Temperatur je Flächeneinheit bei gleichbleibender Heizleistung im betreffenden Wohnraum reduziert werden.",
+        "block3-p3": "Die <strong>Verbrauchskosten werden gesenkt</strong> und die Wohlbefindlichkeit steigt zeitgleich durch die deutlich verbesserte Wärmeverteilung.",
+        "block4-note": "<strong>infraStar ist Hersteller von Infrarot-Heizfolien!</strong>",
+
+        "title-hidden": "Verdeckt: Alte Deckenflächen",
+        "p1": "Lassen Sie Ihre alte Deckenfläche unberührt, die Rohdecke <strong>unverputzt</strong> oder lassen Sie Leitungen offen an der Decke.",
+        "p2": "Die Spanndecke wird darunter verspannt und <strong>überdeckt damit geschickt alle Vorinstallationen</strong>!",
+        "legend1": "Rohdecke",
+        "legend2": "Holzunterkonstruktion",
+        "legend3": "Isolation",
+        "legend4": "Heizfolie",
+        "legend5": "Spanndecke",
+        "spec-width": "Breite",
+        "spec-power": "Leistung",
+        "spec-voltage": "Spannung",
+        "spec-temp": "Nenngrenztemperatur",
+        "spec-thickness": "Gesamtstärke der Folie",
+        "spec-cable": "Kabellänge",
+
+        "vs-title": "Direktheizung <span class='vs-text'>VS.</span> Zentralheizung",
+        "direct-header": "Direktheizung <br><span class='brand'>infraStar</span>",
+        "central-header": "Zentralheizung <br><span class='brand'>Luft-Wärmepumpe</span>",
+        "direct-benefits": [
+          "Wenig Technik, wenig Müll",
+          "Wartungsfrei",
+          "Keine Nebenkosten",
+          "Direkt im Raum erzeugte Wärme ohne lange Vorlaufzeit"
+        ],
+        "central-benefits": [
+          "Verschleiß- & wartungsanfällige Technik & Mechanik",
+          "Hohe Nebenkosten",
+          "Wärmeverteilverluste",
+          "Geräusch der Außenanlage"
+        ],
+        "extra-text": "Übrigens: Wer nichts verbrennt, braucht weder Schornstein, Abgasanlage noch Schornsteinfeger Dienste",
+
+        "ceiling-title": "Decken Flächenheizung <span class='subtitle'>Unsichtbare, schnelle & gleichmäßige Wärme</span>",
+        "nav-infrastar": "infraStar®",
+        "nav-why": "Warum Infrarot?",
+        "nav-solutions": "Heizlösungen",
+        "nav-install": "Anschaffung",
+        "nav-consumption": "Verbrauch",
+        "nav-references": "Referenzen",
+        "nav-performance": "Leistungen",
+
+        "film-subtitle": "Einfach flexibel heizen",
+        "film-title": "Infrarot-Heizfolien",
+        "film-p1": "infraStar Heizfolien sind in verschiedenen Breiten und Leistungsstufen sowie nicht klebend oder einseitig und beidseitig selbstklebend erhältlich. In Wohnräumen in der Regel bis 660cm Länge, können je nach Einsatzgebiet und Art auch längere Bahnen produziert werden. Format, Leistung und Anschlussart der infraStar Heizfolie lassen sich optimal an die individuellen Wünsche des Kunden anpassen.",
+        "film-p2": "Die Heizfolien werden seit 2023 von infraStar selbst in Deutschland produziert und vor Versand mit 4000 V geprüft.",
+        "film-p3": "Die Erfinderfirma in Norwegen arbeitet bereits seit 1939 an der Entwicklung von flexiblen Heizelementen und deren Technik. Seit 1996 wird in Deutschland produziert. Durch ständige Weiterentwicklung der Materialien und der Produktionsmethoden werden IR-Flächenheizelemente und die IR-Heizfolie heute auf einem hohen Qualitätsstandard produziert und weltweit vertrieben.",
+        "tech-title": "Technische Daten",
+
+        "why-infra-title": "Warum Infrarot?",
+        "why-infra-p1": "Als revolutionäre Alternative eröffnet die Strahlungsheizung völlig neue Wege in der Heizungsindustrie. Sie positioniert sich als Gegenpol zur zentralen Konvektionsheizung und ist in jeder Hinsicht weit überlegen.",
+        "why-infra-p2": "Im Folgenden erläutern wir die Gründe für Transparenz und ermöglichen Ihnen, Ihre eigene Entscheidung zu treffen – eine, die mit Gründen und Argumenten gewürzt ist, nicht nur auf Meinungen basiert.",
+        "why-infra-p3": "Bei Konvektionsheizung und konventionellen Zentralheizungssystemen sind sinnlose Heizsysteme, die große Ressourcen, Energie und Wartung erfordern, immer noch üblich.",
+        "why-infra-p4": "Die Ideen und Erfahrungen der Konvektionsheiztechn  Die Zukunft der Heiztechnik ist die Strahlungsheizung in jeder Hinsicht. Dies stellt sicher, dass die Bausubstanz auf konstanter Temperatur gehalten wird, während die Raumlufttemperatur parallel, sekundär verläuft.",
+        "why-infra-h2-1": "Konvektionswärme im Vergleich",
+        "why-infra-p5": "Im Gegensatz zur Konvektionsheizung heizen Infrarotheizungen direkt Wände, Objekte und Körper im Raum, nicht hauptsächlich die Luft. Das gesamte Material absorbiert Infrarotstrahlung statt unangenehme Kälte abzustrahlten, und gibt dann gleichmäßig Strahlungswärme im gesamten Raum ab. Dies erzeugt eine äußerst angenehme Wärme, die an einen natürlich von der Sonne erwärmten Raum erinnert. Der Boden und Edelstahlarmaturen sind nicht mehr kalt, und Feuchtigkeit und Schimmel haben keine Chance.",
+        "why-infra-p6": "Das primäre Ziel der Heiztechnik ist die Gewährleistung von Komfort, der hauptsächlich durch die Interaktion von Wandoberflächentemperatur und Raumlufttemperatur bestimmt wird.",
+        "why-infra-p7": "Angenehme Temperatur liegt etwa in der Mitte beider. Bei Konvektion hat die Wand eine Temperatur von 16°C und die Luft 20°C. Bei Strahlungsheizung ist eine viel angenehmere Wandtemperatur von 22°C möglich und ermöglicht der Luft, eine niedrigere Temperatur von nur 18°C zu erreichen, was den entscheidenden Vorteil hat, dass das Atmen viel angenehmer ist. Wo atmet es sich besser – auf einem Berggipfel mit kalter Luft oder in einer trockenen, heißen Wüste?",
+        "why-infra-h2-2": "Gleichmäßige Wärmeverteilung",
+        "why-infra-p8": "Wärme wird gleichmäßig über Wände und im gesamten Raum verteilt, die Luft ist angenehm kühl und nicht der Luftzirkulation unterworfen, sodass weder Staub, Bakterien noch Viren aufgewirbelt werden.",
+        "why-infra-p9": "Ungleichmäßige Wärmeverteilung: Wärme steigt mit warmer, trockener Luft auf und wirbelt Staub, Viren und Bakterien auf, aber Wände bleiben kalt und es kann zu Kondensation kommen.",
+        "why-infra-p10": "Da Infrarotstrahlen den Körper direkt heizen, fühlt man sich im Raum angenehm und warm, obwohl die Luft recht kühl ist. Dies ist auch einer der Gründe, warum Infrarotheizungen energieeffizient sind. Der Unterschied in der Luftqualität ist deutlich spürbar; jetzt ist sie angenehm kühl und keiner Luftzirkulation unterworfen, sodass weder Staub, Bakterien noch Viren aufgewirbelt werden.",
+        "why-infra-h2-3": "Verbesserte Dämmeigenschaften durch Strahlungswärme",
+        "why-infra-p11": "Wie wir alle wissen, ist feuchte Dämmung nutzlos wie ein nasser Wollmantel im Winter. Sie können Systeme nicht vor Energieverlust oder Korrosion schützen. Die Korrelation zwischen Strahlungswärme und der damit verbundenen Trocknung der Bausubstanz trägt effektiv zu verbesserten Dämmwerten und damit zu weiteren Energieeinsparungen bei.",
+        "why-infra-h2-4": "Qualitäten der Wärmestrahlen und physikalische Prinzipien",
+        "why-infra-p12": "Die physikalischen Prinzipien der beiden Heizsysteme sind völlig unterschiedlich. Bei der Strahlungsheizung erfolgt der Wärmetransport ohne Transportmedium nur durch Wärmestrahlung (Quantenmechanik), sodass die Raumluft kühl und angenehm bleibt, während Konvektion einen Wärmestrom warmer Luft (Thermodynamik) für den Wärmetransport benötigt. Das Phänomen der Strahlung ist von der Sonne bekannt und zeigt, dass große Entfernungen ohne Transportmedium überwunden werden können.",
+        "why-infra-h2-5": "Verbrauch und Kosten während des laufenden Betriebs",
+        "why-infra-p13": "Viel Technik in einer Zentralheizung bedeutet auch viel Pflege und Austausch vieler kleiner Teile, die sich abnutzen. Außerdem erfordert eine Verbrennungsheizung auch:",
+        "why-infra-li1": "Wartung der Heizungsanlage",
+        "why-infra-li2": "Schornsteinfeger-Dienste",
+        "why-infra-li3": "Lagerreinigung",
+        "why-infra-li4": "Reparatur und Austausch verschiedener verschlissener Teile",
+        "why-infra-li5": "Brennstofflieferungen, z.B. Pellets, Öl, Holz",
+        "why-infra-p14": "Insgesamt ist die Energieeffizienz von Wärmepumpen niedriger als erwartet.",
+        "why-infra-p15": "Es sollte nicht vergessen werden, dass Wärmeverluste aus dem Speichertank und dem Verteilnetz vom Zentralheizsystem bis zum entferntesten Raum nicht vernachlässigt werden können. Bei Fußbodenheizung ist das Heizsystem sehr langsam und erzeugt daher manchmal mehr Wärme als nötig.",
+
+        "footer-copyright": "© 2025 Remont24 | Alle Rechte vorbehalten"
+      }
+    };
+
+    function updateLanguage(lang) {
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (translations[lang]?.[key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+
+      document.querySelectorAll('[data-translate-group]').forEach(list => {
+        const group = list.getAttribute('data-translate-group');
+        const items = translations[lang]?.[group];
+        if (Array.isArray(items)) {
+          list.querySelectorAll('li').forEach((li, i) => {
+            if (items[i]) li.textContent = items[i];
+          });
+        }
+      });
+    }
+
+    
+    document.querySelectorAll('#languageSwitcher').forEach(s => {
+      s.addEventListener('change', e => {
+        const lang = e.target.value;
+        updateLanguage(lang);
+        document.querySelectorAll('#languageSwitcher').forEach(sw => sw.value = lang);
+        localStorage.setItem('lang', lang);
+
+        if (mobileNav.classList.contains('open')) {
+          toggleMenu();
+        }
+      });
+    });
+
+    const hamburger = document.querySelector('.hamburger');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const overlay = document.querySelector('.overlay');
+    const header = document.querySelector('.sticky-header');
+
+    const toggleMenu = () => {
+        hamburger.classList.toggle('open');
+        mobileNav.classList.toggle('open');
+        overlay.classList.toggle('open');
+        const selectedLang = document.querySelector('#languageSwitcher')?.value || 'bs';
+        updateLanguage(selectedLang);
+    };
+
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    const mobileNavLinks = mobileNav.querySelectorAll('a');
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            toggleMenu(); 
+        });
+    const mobileLanguageSwitcher = mobileNav.querySelector('#languageSwitcher');
+    if (mobileLanguageSwitcher) {
+        mobileLanguageSwitcher.addEventListener('change', () => {
+            toggleMenu(); 
+        });
+    }
+    });
+
+    // === NAVBAR SHRINK ===
+    window.addEventListener('scroll', () => {
+      document.querySelector('.sticky-header').classList.toggle('shrink', window.scrollY > 100);
+    });
+
+    // === ANIMACIJE NA SCROLL ===
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => e.isIntersecting && e.target.classList.add('visible'));
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    const savedLang = localStorage.getItem('lang') || 'bs';
+    document.querySelectorAll('#languageSwitcher').forEach(s => s.value = savedLang);
+    updateLanguage(savedLang);
+  });
+</script>
+</body>
+</html>
